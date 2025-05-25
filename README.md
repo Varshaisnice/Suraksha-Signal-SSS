@@ -1,73 +1,37 @@
-# Welcome to your Lovable project
+Suraksha Signal – Real-Time Missing Child Alert System
 
-## Project info
+Welcome to our project:https://suraksha-signal-sss-r1dc.vercel.app/
 
-**URL**: https://lovable.dev/projects/d410f3f7-c35c-4cb0-b3f1-27d1d706fa9a
+Suraksha Signal is a safety-focused web application designed to help locate and recover missing children through real-time community-driven alerts and location-based notifications. The app connects citizens, NGOs, and law enforcement to respond quickly and effectively when a child goes missing.
+🔐 Key Features:
 
-## How can I edit this code?
+    Instant Alerts: Trigger and broadcast missing child alerts instantly to nearby users.
 
-There are several ways of editing your application.
+    Geo-Location Services: Uses Google Maps API to identify and display nearby missing child reports.
 
-**Use Lovable**
+    SMS Notifications: Integrates with Firebase or Twilio to send real-time alerts via SMS, especially to people in the surrounding area.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d410f3f7-c35c-4cb0-b3f1-27d1d706fa9a) and start prompting.
+    Multilingual Support: Makes the app accessible to a wider audience by supporting multiple Indian languages.
 
-Changes made via Lovable will be committed automatically to this repo.
+    AI Integration: Uses basic AI to match reported sightings with ongoing cases and suggest possible leads.
 
-**Use your preferred IDE**
+    Offline Functionality: Allows reports and alerts even with limited internet access, syncing when back online.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+    Verified Reports: Integrates with law enforcement and registered NGOs to authenticate reports and avoid misuse.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+⚙️ Tech Stack:
 
-Follow these steps:
+    Frontend: React.js (for fast and interactive UI)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+    Backend: Node.js with Express.js
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+    Database: MongoDB (to store alerts, user info, and case data)
 
-# Step 3: Install the necessary dependencies.
-npm i
+    APIs: Google Maps API (location), Firebase/Twilio (SMS alerts)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+    Other Tools: Multilingual libraries, offline support packages, and authentication services
 
-**Edit a file directly in GitHub**
+📁 Developer Experience:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The app includes a beginner-friendly guide to help developers set up and run it locally in VS Code, including step-by-step installation, configuration, and testing instructions.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d410f3f7-c35c-4cb0-b3f1-27d1d706fa9a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
