@@ -5,7 +5,7 @@
 
 import { toast } from "@/components/ui/use-toast";
 
-
+import { sendTwilioAlert } from "./twilioService";
 // Default emergency contact numbers - replace with actual test numbers
 // Format should match your country's phone number format (e.g., "1234567890" for US)
 const DEFAULT_EMERGENCY_CONTACTS = ["+917411353272", "+918861140778", "+917795934477"];
