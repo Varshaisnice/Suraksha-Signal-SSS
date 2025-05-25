@@ -6,6 +6,9 @@ Suraksha Signal is a safety-focused web application designed to help locate and 
 
 
 🔐 Key Features:
+
+
+
 Instant Alerts: Trigger and broadcast missing child alerts instantly to nearby users.
 
 Geo-Location Services: Uses Google Maps API to identify and display nearby missing child reports.
@@ -19,12 +22,20 @@ AI Integration: Uses basic AI to match reported sightings with ongoing cases and
 Offline Functionality: Allows reports and alerts even with limited internet access, syncing when back online.
 
 Verified Reports: Integrates with law enforcement and registered NGOs to authenticate reports and avoid misuse.
+
+
+
+
+
 ⚙️ Tech Stack:
 Frontend —> React.js
 Backend —> Node.js + Express
 Database —> SQL
 Notifications —> Twilio SMS
-Hosting —> Vercel Map/Location  —>   Google API
+Hosting —> Vercel Map/Location  —>   Google API.
+
+
+
 📁 Developer Experience:
 The app includes a beginner-friendly guide to help developers set up and run it locally in VS Code, including step-by-step installation, configuration, and testing instructions.
 
