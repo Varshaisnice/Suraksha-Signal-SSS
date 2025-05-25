@@ -1,6 +1,10 @@
 Suraksha Signal – Real-Time Missing Child Alert System
 Welcome to our project : https://suraksha-signal-sss-r1dc.vercel.app/
 Suraksha Signal is a safety-focused web application designed to help locate and recover missing children through real-time community-driven alerts and location-based notifications. The app connects citizens, NGOs, and law enforcement to respond quickly and effectively when a child goes missing.
+
+
+
+
 🔐 Key Features:
 Instant Alerts: Trigger and broadcast missing child alerts instantly to nearby users.
 
