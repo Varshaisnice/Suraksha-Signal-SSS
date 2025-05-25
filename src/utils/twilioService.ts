@@ -11,9 +11,9 @@ const TWILIO_API_ENDPOINT = "https://api.twilio.com/2010-04-01/Accounts";
 // These would normally be stored securely in environment variables
 // Replace these with your actual Twilio credentials to send real SMS
 // For demo purposes, using placeholder values
-const TWILIO_ACCOUNT_SID = "AC********************************";
-const TWILIO_AUTH_TOKEN = "*********************************";
-const TWILIO_PHONE_NUMBER = "+15555555555";
+const TWILIO_ACCOUNT_SID = "AC9218bafd08cf35c659b5b30a586a776b";
+const TWILIO_AUTH_TOKEN = "208401d7b4cc76f91a5f36116998a320";
+const TWILIO_PHONE_NUMBER = "+12707145620";
 
 interface AlertDetails {
   name: string;
